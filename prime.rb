@@ -2,7 +2,7 @@
 def prime?(number)
   num = number.abs
   array = []
-  i = 2
+  i = 1
   until i > Math.sqrt(num)
     array << i
     i += 1
