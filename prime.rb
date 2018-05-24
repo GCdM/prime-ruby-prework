@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  num = |number|
+  num = number.abs
   array = []
   i = 2
   until i > Math.sqrt(num)
