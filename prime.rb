@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(number)
   num = number.abs
-  array = []
-  i = 1
+  array = [1]
+  i = 2
   until i > Math.sqrt(num)
     array << i
     i += 1
